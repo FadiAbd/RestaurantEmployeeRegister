@@ -21,11 +21,11 @@
                 employees.Add(new Employee { Name = name, Salary = salary });
             }
 
-            PrintEmployeeDetails();
-            RunUnitTest(employees);
+            PrintEmployeeInfo();
+            RunTest(employees);
         }
         //Function to print emp details
-        static void PrintEmployeeDetails()
+        static void PrintEmployeeInfo()
         {
             Console.WriteLine("\nEmployee Details:");
             foreach (var emp in employees)
@@ -34,7 +34,7 @@
             }
         }
         // A function that does what an Unit test do
-        static void RunUnitTest(List<Employee> employees)
+        static void RunTest(List<Employee> employees)
         {
             if (employees.Count > 0)
             {
