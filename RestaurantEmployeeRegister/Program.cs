@@ -30,7 +30,7 @@
             Console.WriteLine("\nEmployee Details:");
             foreach (var emp in employees)
             {
-                Console.WriteLine($"Name: {emp.Name}, Salary: {emp.Salary:C}");
+                Console.WriteLine($"Name: {emp.Name}, Salary: {emp.Salary}");
             }
         }
         // A function that does what an Unit test do
